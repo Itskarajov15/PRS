@@ -1,0 +1,64 @@
+[
+  {
+    "ContainingType": "API.Controllers.AuthController",
+    "Method": "GenerateToken",
+    "RelativePath": "api/auth/generateToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.XmlController",
+    "Method": "AddCommentToXmlFile",
+    "RelativePath": "api/xml/add-comment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comment",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.XmlController",
+    "Method": "AddElementToXmlFile",
+    "RelativePath": "api/xml/add-element",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "API.Models.XmlElementRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.XmlController",
+    "Method": "DownloadXmlFile",
+    "RelativePath": "api/xml/download",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.XmlController",
+    "Method": "ReadXmlFile",
+    "RelativePath": "api/xml/read",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
